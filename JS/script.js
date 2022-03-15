@@ -26,7 +26,19 @@ $(document).ready(function() {
     $("#product-text").click(function() {
         $("#product-text").hide("1000");
         $("#product").show();
-
  });
-    
+});
+ $(document).ready(function(){
+    $("#firstimg").mouseover(function(){
+          $("#deli1").show();
+        })
+        $("#firstimg").mouseout(function(){
+          $("#deli1").hide();
+        });
+    $("#secondimg").mouseover(function(){
+        $("#deli2").show();
+    })
+    $("#secondimg").mouseout(function(){
+        $("#del2").hide();
+    });
 });
